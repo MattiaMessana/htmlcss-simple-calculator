@@ -1,21 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* HEADER */
-header{
+header {
     background-color: #ebebeb;
     text-align: center;
     width: 500px;
     border-radius: 5px;
 }
-.number-conteiner{
+
+.number-conteiner {
     background-color: black;
     text-align: right;
     width: 500px;
-    font-family: 'Seven Segment', sans-serif;                        
+    font-family: 'Seven Segment', sans-serif;
     font-size: 30px;
     color: green;
     padding: 20px;
+}
+
+.symbol-conteiner {
+    background-color: #ebebeb;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 0px 0px 5px 5px;
+    display: flex   ;
+    height: 100%;
+
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.numbers{
+    border: 2px solid green;
+    
+}
+
+.item {
+    background-color: #bbbbbb;
+    padding: 20px 50px;
+    width: calc(100%/3 - 3px);
+    
+}
+.item2{
+    background-color: #bbbbbb;
+    padding: 20px 50px;
+    width:calc(100%/3 * 2 - 3px) ;
+}
+
+.operators {
+    width: calc(100%/3 - 3px);
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    
 }
