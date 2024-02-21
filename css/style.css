@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
+header{
+    background-color: #ebebeb;
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.number-conteiner{
+    background-color: black;
+    text-align: right;
+    width: 500px;
+    font-family: 'Seven Segment', sans-serif;                        
+    font-size: 30px;
+    color: green;
+    padding: 20px;
+}
