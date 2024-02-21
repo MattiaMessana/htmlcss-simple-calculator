@@ -24,13 +24,10 @@ header {
 
 .symbol-conteiner {
     background-color: #ebebeb;
-    border: 1px solid black;
     width: 500px;
     border-radius: 0px 0px 5px 5px;
     display: flex   ;
     height: 100%;
-
-
 }
 
 .flex {
@@ -39,11 +36,10 @@ header {
     
     
 }
-.numbers{
-    border: 2px solid green;
-    
-}
+.number{
+    height: 75px;
 
+}
 .item {
     background-color: #bbbbbb;
     padding: 20px 50px;
@@ -58,7 +54,6 @@ header {
 
 .operators {
     width: calc(100%/3 - 3px);
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     
